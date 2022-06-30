@@ -1,0 +1,59 @@
+ARQUIVO INDEX
+
+<!DOCTYPE HTML >
+< html >
+< cabeça >
+  < meta  charset =" utf-8 " >
+  < meta  name =" viewport " content =" width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover " >
+  < meta  http-equiv =" Content-Security-Policy " content =" default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe -inline' 'unsafe-eval' " >
+  < script  src =" componentes/loader.js " > </ script >
+  < script  src =" componentes/edit.js " > </ script >
+< link  href =" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css " rel =" folha de estilo " integridade =" sha384-0evHe/X+R7YkIZDRvuzKMRqM +OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor " crossorigin =" anônimo " >
+< script  src =" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js " integridade =" sha384 -pprn3073KE6tl6bjs2QrFaJGz5/ SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2 " anônimo " > </ script >
+  < link  rel =" folha de estilo " href =" componentes/loader.css " >
+  < link  rel =" folha de estilo " href =" css/style.css " >
+
+  < estilo >
+  #bt { _
+      text-align : centro;
+      cor de fundo : azul;
+  }
+  #naruto { _
+    cor de fundo : vermelho;
+    text-align : centro;
+  }
+  #shino { _
+     cor de fundo : # 8470FF ;
+     text-align : centro;
+  }
+
+  #bt { _
+     cor de fundo : # CDC9C9 ;
+  }
+
+      </ estilo >
+
+</ cabeça >
+< corpo >
+    < div  id =" shino " >
+				< br > < h2 > Lista de Produtos </ h2 > < br >
+			</ div >
+            <br> _ _
+			< div  class =" corpo do cartão d-flex-justify-center align-center flex-column " >
+				< input  class =" form-control " type =" text " name =" name " placeholder =" Insira o nome do produto " id =" kurama " > < br >
+				< input  class =" form-control " type =" number " name =" price " placeholder =" insira o preço do produto " id =" kurenai " > < br > < br >
+				< button  class =" btn " id =" btn " > Pesquisar </ button > < br >
+			</ div >			
+	</ div >
+  
+    
+    < classe div  =" contêiner " >
+        < classe div  =" linha " >
+            < div  id =" naruto " > < br > < h2 > Produtos: </ h2 >  </ div > < br > < br >
+        <br> _ _
+
+        < div  class =" dados " > </ div >
+    </ div >
+
+</ corpo > 
+</ html >
